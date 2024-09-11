@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_nav"
+    app:startDestination="@id/floatingAction">
+
+    <fragment
+        android:id="@+id/floatingAction"
+        android:name="com.example.addrecyclerview.floatingAction"
+        android:label="floating_action"
+        tools:layout="@layout/floating_action" />
+    <fragment
+        android:id="@+id/adddetails"
+        android:name="com.example.addrecyclerview.adddetails"
+        android:label="adddetails"
+        tools:layout="@layout/adddetails" />
+    <fragment
+        android:id="@+id/recycler"
+        android:name="com.example.addrecyclerview.recycler"
+        android:label="fragment_recycler"
+        tools:layout="@layout/fragment_recycler" />
+    <fragment
+        android:id="@+id/edit_fragment"
+        android:name="com.example.addrecyclerview.edit_fragment"
+        android:label="edit_fragment"
+        tools:layout="@layout/edit_fragment" />
+</navigation>
